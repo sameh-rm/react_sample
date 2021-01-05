@@ -1,0 +1,30 @@
+.collection-page {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    font-size: 38px;
+    margin: 0 auto 30px;
+  }
+  @media(max-width: 768px){
+    width: 100%;
+    flex-direction: column;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+    & .collection-item {
+      margin-bottom: 30px;
+      width: 100%;
+    }
+    @media(max-width: 768px){
+    grid-template-columns: 1fr 1fr;
+      width: 100%;
+      padding-left: 1rem;
+    }
+   
+  }
+ 
+}

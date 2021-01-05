@@ -1,0 +1,166 @@
+{
+  "data": [
+    {
+      "bgColor": "#ffffff",
+      "modules": [
+        {
+          "type": "bannerSlider",
+          "outerSpacing": { "top": 0, "bottom": 7 },
+          "banners": [
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video/televisions/samsung?f[is_fbn]=1",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20200428/b4f456261af2e6844b4d063c0095b837/en_banner-07.jpg",
+              "ratio": 20.833
+            },
+            {
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_banner-01.jpg",
+              "linkUrl": "/egypt-en/electronics-and-mobiles/television-and-video/televisions",
+              "ratio": 20.833
+            }
+          ]
+        },
+        {
+          "type": "bannerModule",
+          "outerSpacing": { "top": 7, "bottom": 7 },
+          "numPerRow": 4,
+          "banners": [
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video/televisions?f[tv_screen_size]=24_31_inch",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_mb-cat-module-01.jpg",
+              "ratio": 91.892
+            },
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video/televisions?f[tv_screen_size]=32_39_inch",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_mb-cat-module-02.jpg",
+              "ratio": 91.892
+            },
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video/televisions?f[tv_screen_size]=40_48_inch&f[tv_screen_size]=49_54_inch",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_mb-cat-module-03.jpg",
+              "ratio": 91.892
+            },
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video/televisions?f[tv_screen_size]=55_59_inches&f[tv_screen_size]=60_69_inches",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_mb-cat-module-04.jpg",
+              "ratio": 91.892
+            },
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video/projectors",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_mb-cat-module-05.jpg",
+              "ratio": 91.892
+            },
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video/television-accessories-16510/tv-mounts-22554",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_mb-cat-module-06.jpg",
+              "ratio": 91.892
+            },
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video/home-theater-systems-19095",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_mb-cat-module-07.jpg",
+              "ratio": 91.892
+            },
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video?q=Satellite%20Receiver%20",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_mb-cat-module-08.jpg",
+              "ratio": 91.892
+            }
+          ]
+        },
+        {
+          "type": "productCarousel",
+          "outerSpacing": { "top": 9, "bottom": 7 },
+          "productUrl": "/eg-tv-topselling",
+          "moduleHeader": {
+            "titleColor": null,
+            "titleText": "Noon Picks",
+            "linkText": "VIEW ALL",
+            "linkUrl": "/eg-tv-topselling"
+          }
+        },
+        {
+          "type": "productCarousel",
+          "outerSpacing": { "top": 9, "bottom": 7 },
+          "productUrl": "/electronics-and-mobiles/television-and-video/projectors?q=projectors&f[is_fbn]=1",
+          "moduleHeader": {
+            "titleColor": null,
+            "titleText": "Projectors",
+            "linkText": "VIEW ALL",
+            "linkUrl": "/electronics-and-mobiles/television-and-video/projectors?q=projectors&f[is_fbn]=1"
+          }
+        },
+        {
+          "type": "bannerModule",
+          "outerSpacing": { "top": 7, "bottom": 9 },
+          "numPerRow": 7,
+          "moduleHeader": { "titleText": "Shop By Brand" },
+          "banners": [
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video/lg",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_brand-module-01.jpg",
+              "ratio": 49.618
+            },
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video/samsung",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_brand-module-02.jpg",
+              "ratio": 49.618
+            },
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video/jac",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_brand-module-03.jpg",
+              "ratio": 49.618
+            },
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video/ata",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_brand-module-04.jpg",
+              "ratio": 49.618
+            },
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video/toshiba",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_brand-module-05.jpg",
+              "ratio": 49.618
+            },
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video/tornado",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_brand-module-06.jpg",
+              "ratio": 49.618
+            },
+            {
+              "linkUrl": "/electronics-and-mobiles/television-and-video/arion",
+              "imageUrl": "https://k.nooncdn.com/cms/pages/20190610/9e662dee605a0f510af884da9a941818/en_brand-module-07.jpg",
+              "ratio": 49.618
+            }
+          ]
+        },
+        {
+          "type": "productCarousel",
+          "outerSpacing": { "top": 9, "bottom": 7 },
+          "productUrl": "/electronics-and-mobiles/television-and-video?q=Satellite%20Receiver%20",
+          "moduleHeader": {
+            "titleColor": null,
+            "titleText": "Receivers",
+            "linkText": "VIEW ALL",
+            "linkUrl": "/electronics-and-mobiles/television-and-video?q=Satellite%20Receiver%20"
+          }
+        },
+        {
+          "type": "productCarousel",
+          "outerSpacing": { "top": 9, "bottom": 7 },
+          "productUrl": "/electronics-and-mobiles/television-and-video/television-accessories-16510/tv-mounts-22554",
+          "moduleHeader": {
+            "titleColor": null,
+            "titleText": "Wall mount",
+            "linkText": "VIEW ALL",
+            "linkUrl": "/electronics-and-mobiles/television-and-video/television-accessories-16510/tv-mounts-22554"
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "h1": "تلفزيون",
+    "title": "television | Online shopping in Egypt",
+    "desc": "Save big and get best prices on noon now products. Super speedy delivery | 100% genuine | Great value"
+  },
+  "type": "static",
+  "canonical_url": "/television"
+}
