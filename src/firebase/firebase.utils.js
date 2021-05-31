@@ -1,16 +1,17 @@
 import firebase from "firebase/app";
 import "firebase/firestore";
 import "firebase/auth";
-
+import env from "react-dotenv";
+console.log(env);
 const config = {
-  apiKey: "AIzaSyBp99NwluzbjkNKZutIkOHA71tEYK1hX5c",
-  authDomain: "crown-db-624c3.firebaseapp.com",
-  databaseURL: "https://crown-db-624c3.firebaseio.com",
-  projectId: "crown-db-624c3",
-  storageBucket: "crown-db-624c3.appspot.com",
-  messagingSenderId: "1078912152583",
-  appId: "1:1078912152583:web:95f54b666b2702e515a6a2",
-  measurementId: "G-3XZSHS7ZS5",
+  apiKey: env.API_KEY,
+  authDomain: env.AUTH_DOMAIN,
+  databaseURL: env.DATABASE_URL,
+  projectId: env.PROJECT_ID,
+  storageBucket: env.STORAGE_BUCKET,
+  messagingSenderId: env.MESSAGING_SENDER,
+  appId: env.APP_ID,
+  measurementId: env.MEASUREMENT_ID,
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
@@ -34,32 +35,35 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
   return userRef;
 };
 
-export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => {
-  const collectionRef = firestore.collection(collectionKey)
+export const addCollectionAndDocuments = async (
+  collectionKey,
+  objectsToAdd
+) => {
+  const collectionRef = firestore.collection(collectionKey);
 
-  const batch = firestore.batch()
-  objectsToAdd.forEach(obj => {
+  const batch = firestore.batch();
+  objectsToAdd.forEach((obj) => {
     const newDocRef = collectionRef.doc();
-    batch.set(newDocRef, obj)
+    batch.set(newDocRef, obj);
   });
-  return await batch.commit()
-}
+  return await batch.commit();
+};
 
 export const convertCollectionsSnapshotToMap = (collections) => {
-  const convertedCollection = collections.docs.map(doc => {
+  const convertedCollection = collections.docs.map((doc) => {
     const { title, items } = doc.data();
     return {
       routeName: encodeURI(title.toLowerCase()),
       id: doc.id,
       title,
-      items
-    }
+      items,
+    };
   });
   return convertedCollection.reduce((prevValue, collection) => {
     prevValue[collection.title.toLowerCase()] = collection;
     return prevValue;
-  }, {})
-}
+  }, {});
+};
 
 firebase.initializeApp(config);
 

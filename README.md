@@ -1,68 +1,97 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=330px height=200px src="https://miro.medium.com/max/3176/1*h-xRzZOCHk8jTlEa8M42GA.png" alt="Project logo"></a>
+</p>
 
-## Available Scripts
+<h3 align="center">React E-Commerce Sample</h3>
 
-In the project directory, you can run:
+<div align="center">
 
-### `yarn start`
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+</div>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+<p align="center"> E-Commerce Sample using React.js and Firebase .
+    <br> 
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📝 Table of Contents
 
-### `yarn build`
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [TODO](../TODO.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `yarn eject`
+You need **NodeJs** pre installed, firbase account.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Clone the repo
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+git clone https://github.com/sameh-rm/react_sample.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Installing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- install node packages
+  cd into the project folder and run:
 
-## Learn More
+```
+  npm i
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+  yarn install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- ENV_VARIABLES
+  create a .env file in your root directory, that should contain your web app's Firebase configuration
 
-### Code Splitting
+```
+      API_KEY
+      API_URL
+      AUTH_DOMAIN
+      DATABASE_URL
+      PROJECT_ID
+      STORAGE_BUCKET
+      MESSAGING_SENDER
+      APP_ID
+      MEASUREMENT_I
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- starting the project
 
-### Analyzing the Bundle Size
+```
+  npm start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```
+  yarn start
+```
 
-### Making a Progressive Web App
+## ⛏️ Built Using <a name = "built_using"></a>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- [Firbase](https://firebase.google.com/) - Database / Authenctication
+- [React.JS](https://reactjs.org/) - Web Framework
+- [NodeJs](https://nodejs.org/en/) - Server Environment
 
-### Advanced Configuration
+## ✍️ Authors <a name = "authors"></a>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- [@sameh-rm](https://github.com/sameh-rm) - Idea & Initial work
 
-### Deployment
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Hat tip to anyone whose code was used
+- Inspiration
+- References

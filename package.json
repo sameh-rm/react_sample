@@ -2,8 +2,8 @@
   "name": "ecommerce",
   "version": "0.1.0",
   "private": true,
-  "description": "your project description",
-  "author": "ME",
+  "description": "E-Commerce Sample using React.js and Firebase",
+  "author": "Sameh Ramadan",
   "build": {
     "appId": "com.your_app"
   },
@@ -14,12 +14,14 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "cross-env": "^7.0.2",
+    "dotenv": "^10.0.0",
     "electron-is-dev": "^1.2.0",
     "firebase": "^7.15.3",
     "gh-pages": "^3.1.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-dotenv": "^0.1.3",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
@@ -34,14 +36,11 @@
     "styled-components": "^5.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "react-build": "react-scripts build",
-    "react-test": "react-scripts test --env=jsdom",
-    "react-eject": "react-scripts eject",
-    "electron-build": "electron-builder",
-    "release": "yarn react-build && electron-builder --publish=always",
-    "build": "yarn react-build && yarn electron-build",
-    "start-electron": "concurrently \"cross-env BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electron .\""
+    "start": "react-dotenv && react-scripts start",
+    "build": "react-dotenv && react-scripts build",
+    "react:test": "react-scripts test --env=jsdom",
+    "react:eject": "react-scripts eject",
+    "electron-build": "electron-builder"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -63,5 +62,18 @@
     "electron": "^9.1.1",
     "electron-builder": "^22.7.0",
     "wait-on": "^5.1.0"
+  },
+  "react-dotenv": {
+    "whitelist": [
+      "API_KEY",
+      "API_URL",
+      "AUTH_DOMAIN",
+      "DATABASE_URL",
+      "PROJECT_ID",
+      "STORAGE_BUCKET",
+      "MESSAGING_SENDER",
+      "APP_ID",
+      "MEASUREMENT_ID"
+    ]
   }
 }
