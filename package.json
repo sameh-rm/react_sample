@@ -14,8 +14,6 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "cross-env": "^7.0.2",
-    "dotenv": "^10.0.0",
-    "electron-is-dev": "^1.2.0",
     "firebase": "^7.15.3",
     "gh-pages": "^3.1.0",
     "node-sass": "^4.14.1",
@@ -39,8 +37,7 @@
     "start": "react-dotenv && react-scripts start",
     "build": "react-dotenv && react-scripts build",
     "react:test": "react-scripts test --env=jsdom",
-    "react:eject": "react-scripts eject",
-    "electron-build": "electron-builder"
+    "react:eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -56,12 +53,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "concurrently": "^5.2.0",
-    "electron": "^9.1.1",
-    "electron-builder": "^22.7.0",
-    "wait-on": "^5.1.0"
   },
   "react-dotenv": {
     "whitelist": [
